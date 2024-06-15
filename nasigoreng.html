@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasi Goreng</title>
+  <script src="dropdown.js" defer></script>
+
+  <link rel="stylesheet" href="./style/nasigoreng.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-link"> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#howto">How To</a></li>
+        </ul>
+      </div>
+
+        <div class="dropdown">
+          <i onclick="myFunction()" class="ph ph-list"></i>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#howto">How To</a>
+          </div>
+        </div>
+    </nav>  
+  </header>
+
+  <main>
+    <div class="content">
+      <h1 id="tomyam">
+        <div class="food">Nasi <span class="yam">Goreng</span>
+        </div>
+        <span class="informasi">15-25 menit, 200-400 kal
+        </span>
+      </h1>
+
+      <div class="gambar-samping">
+          <article class="deskripsi">
+            <p>Nasi goreng adalah hidangan Indonesia yang terdiri dari nasi yang digoreng dengan kecap manis, 
+              bawang putih, bawang merah, cabai, dan berbagai bahan tambahan seperti ayam, udang, atau telur. Rasanya gurih 
+              dan sedikit manis, sering disajikan dengan acar dan kerupuk.
+            </p>
+          </article>
+        
+        <aside class="gambar">
+          <img src="./img/nasigoreng.png" alt="Tom Yam">
+        </aside>
+      </div>
+    </div>
+
+    <div id="howto"class="bahan-langkah">
+      <article class="ingridient">
+        <h2>Bahan-bahan</h2>
+
+        <div class="ingridient-bahan">
+        <section class="bahan">
+          <h4>bahan:</h4>
+          <ul>
+            <li>5 butir bawang merah, cincang</li>
+            <li>3 butir bawang putih, cincang</li>
+            <li>1/4 sdt merica bubuk</li>
+            <li>1 sdm saus sambal</li>
+            <li>1 sdm kecap manis</li>
+            <li>1 sdm kecap asin</li>
+            <li>Secukupnya garam dan gula</li>
+            <li>1 sdm minyak wijen</li>
+            <li>1 sdm butter untuk menumis</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>bahan lainnya</h4>
+          <ul>
+            <li>2 centong nasi putih</li>
+            <li>50 gr udang</li>
+            <li>2 buah sosis potong-potong</li>
+            <li>Secukupnya seaweed</li>
+            <li>1 buah daun bawang rajang halus</li>
+            <li>2 buah cabai merah</li>
+            <li>3 buah cabai rawit</li>
+            <li>1 butir telur, kocok rata</li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+          <li>Tumis bawang merah dan bawang putih dengan butter</li><br>
+          <li>Lalu masukan udang, daun bawang, sosis dan rumput laut, 
+            tumis sebentar saja kalau mau tambahakn cabai merah dan cabai rawit silahkan</li><br>
+          <li>Masukan nasi, beri seasoning lainnya,gula garam, merica bubuk, saos sambal, kecap manis dan terakhir minyak wijen. Aduk rata sampai semua tercampur.
+            Nasi goreng siap disajikan</li><br>
+        </ol>
+      </article>
+    </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <p id="foot">Dicoding Final Project &#169; 2024, Saya Sendiri</p>
+    </div>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://www.youtube.com/@DicodingIndonesia" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/afrizal_wijatmiko/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100034252390521&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+  
+</body>
+</html>

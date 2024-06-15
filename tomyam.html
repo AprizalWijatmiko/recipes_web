@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tom Yam</title>
+
+  <link rel="stylesheet" href="./style/tomyam.css">
+  <script src="dropdown.js" defer></script>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-link"> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#howto">How To</a></li>
+        </ul>
+      </div>
+
+        <div class="dropdown">
+          <i onclick="myFunction()" class="ph ph-list"></i>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="#howto">How To</a>
+          </div>
+        </div>
+    </nav>  
+  </header>
+
+  <main>
+    <div class="content">
+      <h1 id="tomyam">
+        <div class="food">Tom <span class="yam">Yam</span>
+        </div>
+        <span class="informasi">20-35 menit, 200-250 kal
+        </span>
+      </h1>
+
+      <div class="gambar-samping">
+          <article class="deskripsi">
+            <p>Tom Yam berasal dari Thailand dan merupakan bagian penting dari budaya kuliner negara ini. 
+              Hidangan ini dikenal karena rasa asam pedasnya yang khas. Ada variasi regional seperti Tom Yam Kung (udang) 
+              dan Tom Yam Gai (ayam), yang masing-masing memiliki bahan dan cara penyajian sedikit berbeda. Tom Yam kini 
+              populer di seluruh dunia, sering disajikan di restoran Thailand internasional.
+            </p>  
+          </article>
+        
+        <aside class="gambar">
+          <img src="./img/tomyam.png" alt="Tom Yam">
+        </aside>
+      </div>
+    </div>
+
+    <div id="howto" class="bahan-langkah">
+      <article class="ingridient">
+        <h2>Bahan-bahan</h2>
+
+        <div class="ingridient-bahan">
+        <section class="bahan">
+          <h4>bahan:</h4>
+          <ul>
+            <li>1.5 liter air</li>
+            <li>bakso ikan</li>
+            <li>sawi putih/sawi hijau</li>
+            <li>1 bungkus jamur enoki</li>
+            <li>1 bungkus tofu udang</li>
+          <li>5 buah udang, cuci bersih kepalanya</li>
+          </ul>
+        </section>
+
+        <section class="bumbu-halus">
+          <h4>bumbu halus</h4>
+          <ul>
+            <li>7 butir bawang merah</li>
+            <li>4 siung bawang putih</li>
+            <li>2 butir kemiri</li>
+            <li>2 buah cabe merah</li>
+            <li>5 buah cabe rawit</li>
+          </ul>
+        </section>
+
+        <section class="bumbu-pelengkap">
+          <h4>bumbu pelengkap:</h4>
+          <ul>
+            <li>2 cm jahe,geprek</li>
+            <li>2 cm lengkuas,geprek</li>
+            <li>2 batang serai,geprek</li>
+            <li>2 lembar daun jeruk</li>
+            <li>2 buah jeruk nipis/ 1/2 buah lemon,peras</li>
+            <li>5 buah cabe rawit utuh</li>
+            <li>1 sdt bubuk cabe</li>
+            <li>3 siung bawang putih,tumis</li>
+            <li>2 sdm saus sambal+1 sdt minyak wijen,<span class="span-pelengkap">di tim secukupnya gula garam dan penyedap jamur</span></li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="langkah">
+        <h2>Cara Membuat</h2>
+        <ol>
+          <li>Rebus kepala udang dengan 1.5 L air,didihkan,saring lalu sisihkan</li><br>
+          <li>Tumis bumbu halus dengan jahe serai lengkuas daun jeruk hingga harum,masukan udang,masak hingga berubah warna</li><br>
+          <li>Masukan air kaldu lalu didihkan hingga agak lama,lalu saring</li><br>
+          <li>Masak kembali,masukan udangnya lagi lalu tambah perasan jeruk nipis,cabe bubuk,cabe rawit utuh bawang putih 
+            yg sudah ditumis dan saus sambal yg sudah di tim</li><br>
+          <li>Masukan gula garam dan penyedap(bila pakai),tes rasa...lalu masukan baso ikan dan kawan kawan,
+            biarkan hingga mendidih dan matang</li><br>
+          <li>Terakhir masukan sayuran dan jamur enoki masak sebentar lalu matikan api dan sajikan</li><br>
+        </ol>
+      </article>
+    </div>
+   </div>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <p id="foot">Dicoding Final Project &#169; 2024, Saya Sendiri</p>
+    </div>
+    <div class="social-media">
+      <ul>
+        <li><a href="https://www.youtube.com/@DicodingIndonesia" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://www.instagram.com/afrizal_wijatmiko/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100034252390521&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
